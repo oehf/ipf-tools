@@ -247,10 +247,9 @@
       <plugin id="com.springsource.javax.transaction"/>
       <plugin id="com.springsource.net.sf.cglib"/>
       <plugin id="com.springsource.org.aopalliance"/>
-      <plugin id="com.springsource.org.apache.commons.codec"/>
       <plugin id="com.springsource.org.apache.commons.collections"/>
       <plugin id="com.springsource.org.apache.commons.dbcp"/>
-      <plugin id="com.springsource.org.apache.commons.io"/>
+      <plugin id="org.apache.commons.io"/>
       <plugin id="com.springsource.org.apache.commons.lang"/>
       <plugin id="com.springsource.org.apache.commons.logging"/>
       <plugin id="com.springsource.org.apache.commons.pool"/>
@@ -267,9 +266,9 @@
       <plugin id="com.springsource.org.objectweb.asm"/>
       <plugin id="com.springsource.org.objectweb.asm.attrs"/>
       <plugin id="com.springsource.org.quartz"/>
-      <plugin id="com.springsource.slf4j.api"/>
-      <plugin id="com.springsource.slf4j.log4j" fragment="true"/>
-      <plugin id="com.springsource.slf4j.org.apache.commons.logging"/>
+      <plugin id="slf4j.api"/>
+      <plugin id="slf4j.log4j12" fragment="true"/>
+      <plugin id="jcl.over.slf4j"/>
       <plugin id="groovy-all"/>
       <plugin id="org.apache.commons.codec"/>
       <plugin id="org.apache.servicemix.specs.stax-api-1.0"/>
@@ -338,10 +337,10 @@
       <plugin id="org.eclipse.ui.views.properties.tabbed"/>
       <plugin id="org.eclipse.ui.workbench"/>
       <plugin id="org.eclipse.ui.workbench.texteditor"/>
-      <plugin id="org.openehealth.ipf.commons.commons-core"/>
-      <plugin id="org.openehealth.ipf.commons.commons-flow"/>
-      <plugin id="org.openehealth.ipf.osgi.osgi-config-flow-repository" fragment="true"/>
-      <plugin id="org.openehealth.ipf.osgi.osgi-config-log" fragment="true"/>
+      <plugin id="org.openehealth.ipf.commons.ipf-commons-core"/>
+      <plugin id="org.openehealth.ipf.commons.ipf-commons-flow"/>
+      <plugin id="org.openehealth.ipf.osgi.ipf-osgi-config-flow-repository" fragment="true"/>
+      <plugin id="org.openehealth.ipf.osgi.ipf-osgi-config-log" fragment="true"/>
       <plugin id="org.openehealth.ipf.tools.manager.application"/>
       <plugin id="org.openehealth.ipf.tools.manager.commons.logging.properties" fragment="true"/>
       <plugin id="org.openehealth.ipf.tools.manager.connection"/>
